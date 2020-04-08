@@ -10,8 +10,8 @@
   </head>
 
   <body>
-    <p>Modificando el layout antes </p>
+    <a href="<%= pages_index_path%>">Index</a>  
+    <%= link_to "About", pages_about_url %>  
     <%= yield %>
-    <p>Modificando el layout despues </p>
   </body>
 </html>
